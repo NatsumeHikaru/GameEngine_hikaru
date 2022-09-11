@@ -27,9 +27,15 @@
     <ClInclude Include="src\hikaru\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\hikaru\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\hikaru\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hikaru\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

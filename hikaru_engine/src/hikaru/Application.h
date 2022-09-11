@@ -4,16 +4,16 @@
 
 namespace hikaru {
 
-	class HIKARU_API Application {
+	class HIKARU_API application {
 	public:
-		Application();
-		~Application();
+		application();
+		~application();
 
 		void run();
 	};
 
 
 	// to be define in CLIENT
-	Application* create_application();
+	application* create_application();
 
 }

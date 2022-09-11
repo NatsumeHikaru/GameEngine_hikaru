@@ -1,6 +1,6 @@
 #include "hikaru.h"
 
-class SandBox : public hikaru::Application {
+class SandBox : public hikaru::application {
 public:
 	SandBox() {
 
@@ -13,6 +13,6 @@ public:
 
 };
 
-hikaru::Application* hikaru::create_application() {
+hikaru::application* hikaru::create_application() {
 	return new SandBox();
 }

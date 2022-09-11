@@ -2,15 +2,15 @@
 
 namespace hikaru {
 
-	Application::Application() {
+	application::application() {
 
 	}
 
-	Application::~Application() {
+	application::~application() {
 
 	}
 
-	void Application::run() {
+	void application::run() {
 		while (true);
 	}
 }
