@@ -151,6 +151,10 @@
     <ClInclude Include="src\hikaru\Core.h" />
     <ClInclude Include="src\hikaru\EntryPoint.h" />
     <ClInclude Include="src\hikaru\Log.h" />
+    <ClInclude Include="src\hikaru\events\ApplicationEvent.h" />
+    <ClInclude Include="src\hikaru\events\Event.h" />
+    <ClInclude Include="src\hikaru\events\KeyEvent.h" />
+    <ClInclude Include="src\hikaru\events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\hikaru\Application.cpp" />

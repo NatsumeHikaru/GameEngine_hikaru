@@ -4,6 +4,9 @@
     <Filter Include="hikaru">
       <UniqueIdentifier>{69EB1F02-558D-4AD8-3E48-5E2C2A89D128}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hikaru\events">
+      <UniqueIdentifier>{4D9BC4F4-B95B-402B-8296-89A8EE158507}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Hikaru.h" />
@@ -18,6 +21,18 @@
     </ClInclude>
     <ClInclude Include="src\hikaru\Log.h">
       <Filter>hikaru</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hikaru\events\ApplicationEvent.h">
+      <Filter>hikaru\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hikaru\events\Event.h">
+      <Filter>hikaru\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hikaru\events\KeyEvent.h">
+      <Filter>hikaru\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hikaru\events\MouseEvent.h">
+      <Filter>hikaru\events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
