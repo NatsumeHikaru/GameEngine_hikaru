@@ -1,3 +1,4 @@
+#include "hikaru_pch.h"
 #include "Application.h"
 
 #include "events/ApplicationEvent.h"

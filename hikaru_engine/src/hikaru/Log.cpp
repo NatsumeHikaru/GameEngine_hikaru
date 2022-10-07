@@ -1,3 +1,5 @@
+#include "hikaru_pch.h"
+
 #include "Log.h"
 
 namespace hikaru {

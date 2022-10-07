@@ -18,6 +18,9 @@ project "hikaru_engine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "hikaru_pch.h"
+    pchsource "hikaru_engine/src/hikaru_pch.cpp"
+    
     files
     {
         "%{prj.name}/src/**.h",

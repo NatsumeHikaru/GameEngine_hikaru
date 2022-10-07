@@ -34,6 +34,7 @@
     <ClInclude Include="src\hikaru\events\MouseEvent.h">
       <Filter>hikaru\events</Filter>
     </ClInclude>
+    <ClInclude Include="src\hikaru_pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\hikaru\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\hikaru\Log.cpp">
       <Filter>hikaru</Filter>
     </ClCompile>
+    <ClCompile Include="src\hikaru_pch.cpp" />
   </ItemGroup>
 </Project>
